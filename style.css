@@ -95,3 +95,109 @@ header {
 
     cursor: pointer;
 }
+/* =========================
+   MAIN
+========================= */
+
+main {
+    width: 90%;
+    max-width: 1400px;
+
+    margin: 0 auto;
+    padding-top: 100px;
+
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(250px, 1fr);
+    gap: 25px;
+}
+
+
+/* =========================
+   BLOG POSTS
+========================= */
+
+.posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+
+.blog-post {
+    background-color: white;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.blog-post:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Post Images */
+
+.post-img {
+    width: 100%;
+    height: 400px;
+
+    object-fit: cover;
+    display: block;
+}
+
+
+/* Post Heading */
+
+.blog-post h2 {
+    padding: 20px 15px 10px;
+
+    font-size: 25px;
+}
+
+
+/* Post Paragraph */
+
+.blog-post p {
+    padding: 0 20px;
+
+    line-height: 1.7;
+
+    color: #555;
+}
+
+
+/* Read More Button */
+
+.blog-post button {
+    margin: 20px auto;
+
+    padding: 10px 20px;
+
+    background-color: green;
+    color: white;
+
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.blog-post button:hover {
+    background-color: rgb(25, 201, 25);
+
+    transform: scale(1.05);
+}
+
