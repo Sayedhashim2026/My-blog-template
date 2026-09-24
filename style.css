@@ -814,3 +814,167 @@ footer {
     }
 
 }
+
+/* =================================
+   CATEGORY GRID
+================================= */
+
+.category-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 18px;
+}
+
+
+.category-card {
+    background-color: white;
+
+    border: 1px solid #ddd;
+
+    border-radius: 8px;
+
+    padding: 25px;
+
+    min-height: 280px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    transition: 0.3s;
+}
+
+
+.category-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+
+.category-card h2 {
+    color: #172b4d;
+
+    font-size: 21px;
+
+    margin: 15px 0 5px;
+}
+
+
+.category-card p {
+    color: #667085;
+
+    line-height: 1.5;
+
+    font-size: 14px;
+}
+
+
+.article-count {
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+
+/* =================================
+   CATEGORY ICONS
+================================= */
+
+.category-icon {
+    width: 75px;
+
+    height: 75px;
+
+    border-radius: 8px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-weight: bold;
+
+    font-size: 20px;
+}
+
+
+.html-icon {
+    background: #f4511e;
+
+    color: white;
+}
+
+
+.css-icon {
+    background: #2878d0;
+
+    color: white;
+}
+
+
+.js-icon {
+    background: #f7df1e;
+
+    color: #111;
+}
+
+
+.web-icon {
+    background: #e7f2ff;
+
+    font-size: 35px;
+}
+
+
+.responsive-icon {
+    background: #e7f2ff;
+
+    font-size: 35px;
+}
+
+
+.tools-icon {
+    background: #e8e9ff;
+
+    font-size: 35px;
+}
+
+
+/* =================================
+   VIEW ARTICLES BUTTON
+================================= */
+
+.view-btn {
+    display: inline-block;
+
+    width: fit-content;
+
+    margin-top: auto;
+
+    padding: 9px 16px;
+
+    background-color: green;
+
+    color: white;
+
+    text-decoration: none;
+
+    border-radius: 5px;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+
+
+.view-btn:hover {
+    background-color: rgb(25, 180, 25);
+
+    transform: translateY(-2px);
+}
