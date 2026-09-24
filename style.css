@@ -978,3 +978,164 @@ footer {
 
     transform: translateY(-2px);
 }
+.contact-container {
+    width: 100%;
+    min-height: calc(100vh - 70px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 100px 20px 40px;
+}
+
+
+/* Contact Card */
+
+.grid-contact {
+    width: 100%;
+    max-width: 650px;
+
+    background-color: white;
+
+    border: 1px solid #ddd;
+    border-radius: 12px;
+
+    padding: 35px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Title */
+
+.contact-title {
+    text-align: center;
+
+    font-size: 30px;
+
+    color: #333;
+
+    margin-bottom: 10px;
+}
+
+
+/* Description */
+
+.contact-description {
+    text-align: center;
+
+    color: #666;
+
+    font-size: 15px;
+
+    margin-bottom: 25px;
+}
+
+
+/* Form */
+
+.grid-form {
+    width: 100%;
+}
+
+
+/* Form Group */
+
+.form-group {
+    width: 100%;
+
+    margin-bottom: 18px;
+}
+
+
+/* Labels */
+
+.grid-form label {
+    display: block;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    color: #333;
+
+    margin-bottom: 7px;
+}
+
+
+/* Inputs */
+
+.grid-form input,
+.grid-form textarea {
+    width: 100%;
+
+    padding: 12px 14px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-family: Arial, sans-serif;
+
+    outline: none;
+
+    transition: 0.3s;
+
+    background-color: #fff;
+}
+
+
+/* Textarea */
+
+.grid-form textarea {
+    resize: vertical;
+
+    min-height: 140px;
+}
+
+
+/* Focus */
+
+.grid-form input:focus,
+.grid-form textarea:focus {
+    border-color: green;
+
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.25);
+}
+
+
+/* Send Button */
+
+.send-btn {
+    width: 100%;
+
+    padding: 13px;
+
+    margin-top: 5px;
+
+    background-color: green;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+.send-btn:hover {
+    background-color: rgb(25, 180, 25);
+
+    transform: translateY(-2px);
+}
