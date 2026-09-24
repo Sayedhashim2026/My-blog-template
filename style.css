@@ -201,3 +201,64 @@ main {
     transform: scale(1.05);
 }
 
+/* =========================
+   SIDEBAR
+========================= */
+
+aside {
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+}
+
+
+.aside-box {
+    background-color: white;
+
+    border: 1px solid #ddd;
+    border-radius: 10px;
+
+    padding: 25px;
+
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.08);
+}
+
+
+/* Sidebar headings */
+
+.aside-box h3 {
+    font-size: 20px;
+
+    border-bottom: 2px solid #333;
+
+    padding-bottom: 8px;
+
+    margin-bottom: 15px;
+}
+
+
+/* Sidebar lists */
+
+.aside-box ul {
+    list-style: none;
+}
+
+.aside-box li {
+    margin: 12px 0;
+}
+
+
+/* Sidebar links */
+
+.aside-box a {
+    color: #333;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+.aside-box a:hover {
+    color: rgb(14, 93, 165);
+}
