@@ -277,3 +277,26 @@ footer {
 
     padding: 20px;
 }
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 992px) {
+
+    main {
+        width: 94%;
+
+        grid-template-columns: 1fr;
+    }
+
+    aside {
+        display: grid;
+
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .post-img {
+        height: 350px;
+    }
+}
