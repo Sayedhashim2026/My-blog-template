@@ -262,3 +262,18 @@ aside {
 .aside-box a:hover {
     color: rgb(14, 93, 165);
 }
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    margin-top: 40px;
+
+    background-color: #333;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
