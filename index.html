@@ -136,9 +136,22 @@ main>
 
 </main>
 <footer>
-    <p>
+    <p><script>
+
+    const menuToggle = document.getElementById("menuToggle");
+    const navLinks = document.getElementById("navLinks");
+
+    menuToggle.addEventListener("click", function () {
+
+        navLinks.classList.toggle("active");
+
+      
+    });
+
+</script>
         © 2026 Professional Blog | Designed by Sayed Hashim
     </p>
 </footer>
+
 </body>
 </html>
