@@ -429,3 +429,64 @@ footer {
         gap: 20px;
     }
 }
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 0 15px;
+    }
+
+
+    .logo {
+        font-size: 20px;
+    }
+
+
+    main {
+        width: 94%;
+
+        padding-top: 85px;
+    }
+
+
+    .post-img {
+        height: 220px;
+    }
+
+
+    .blog-post h2 {
+        font-size: 19px;
+
+        padding: 15px 10px 8px;
+    }
+
+
+    .blog-post p {
+        padding: 0 15px;
+
+        font-size: 14px;
+    }
+
+
+    .blog-post button {
+        margin: 15px auto;
+
+        padding: 9px 15px;
+    }
+
+
+    .aside-box {
+        padding: 20px;
+    }
+
+
+    footer {
+        font-size: 13px;
+
+        padding: 15px 10px;
+    }
+}
