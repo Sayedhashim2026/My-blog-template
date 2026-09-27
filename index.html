@@ -144,6 +144,13 @@
     menuToggle.addEventListener("click", function () {
 
         navLinks.classList.toggle("active");
+         if (navLinks.classList.contains("active")) {
+                menuToggle.textContent = "✕";
+                menuToggle.setAttribute("aria-label", "Close menu");
+            } else {
+                menuToggle.textContent = "☰";
+                menuToggle.setAttribute("aria-label", "Open menu");
+            }
 
       
     });
